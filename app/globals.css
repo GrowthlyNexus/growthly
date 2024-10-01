@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* header css */
+@keyframes float-in {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-float-in {
+  animation: float-in 1.5s ease-out forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rotating border hover effect */
+.hover-effect {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-effect::before, 
+.hover-effect::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 2px solid white; /* White border */
+  transition: all 0.5s ease-in-out;
+}
+
+.hover-effect::before {
+  top: 0;
+  left: 0;
+}
+
+.hover-effect::after {
+  bottom: 0;
+  right: 0;
+}
+
+.hover-effect:hover::before {
+  width: 100%;
+  height: 100%;
+}
+
+.hover-effect:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* background image style */
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Add this section for the header */
+.header-bg {
+  background-image: url(''); /* Change to your image path */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+}

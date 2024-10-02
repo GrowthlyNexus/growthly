@@ -1,3 +1,4 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,8 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
-/* header css */
+/* Additional custom styles */
 @keyframes float-in {
   0% {
     transform: translateY(-100px);
@@ -23,27 +23,6 @@ html {
   animation: float-in 1.5s ease-out forwards;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Rotating border hover effect */
 .hover-effect {
   position: relative;
@@ -56,7 +35,7 @@ html {
   position: absolute;
   width: 0;
   height: 0;
-  border: 2px solid white; /* White border */
+  border: 2px solid white;
   transition: all 0.5s ease-in-out;
 }
 
@@ -80,28 +59,8 @@ html {
   height: 100%;
 }
 
-
-/* background image style */
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-10px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-/* Add this section for the header */
 .header-bg {
-  background-image: url(''); /* Change to your image path */
-  background-size: cover; /* Cover the entire section */
-  background-position: center; /* Center the image */
+  background-image: url('./public/header.png'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
 }

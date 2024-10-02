@@ -1,15 +1,15 @@
+// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{js,ts,jsx,tsx}', // Make sure Tailwind scans all your files
+    './app/**/*.{js,ts,jsx,tsx}', // Ensure this path is included
+    './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'business-image': "url('/images/business-bg.jpg')", // Replace with your image path
-      },
-    },
+    extend: {},
   },
   plugins: [],
-};
+}
+
 

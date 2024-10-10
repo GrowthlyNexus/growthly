@@ -64,3 +64,32 @@ html {
   background-size: cover;
   background-position: center;
 }
+
+
+/* Zoom-out effect */
+.zoom-out {
+  animation: zoomOut 0.5s ease forwards;
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.9);
+  }
+}
+
+/* Float-in effect */
+.float-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: floatIn 0.8s ease forwards;
+}
+
+@keyframes floatIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

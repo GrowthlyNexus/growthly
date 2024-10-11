@@ -33,56 +33,58 @@ const Services = () => {
             {
               title: "Social Research and Publications",
               points: [
-                "Explores human behavior and society using various methods.",
-                "Publications share insights for academia and policy.",
-                "Peer review ensures reliability and credibility."
+                "We explore human behavior and society using various methods.",
+                "Our team shares insights for academia and policy." ,
+                "We ensure reliability and credibility."
               ]
             },
             {
               title: "Business Documentation Services",
               points: [
-                "Efficiently creates and manages essential documents.",
-                "Organizes records for easy access and professional standards.",
-                "Ensures compliance with industry regulations."
+                "We create and manage essential documents.",
+                "We organize records for easy access and professional standards.",
+                "Our team ensures compliance with industry regulations."
               ]
             },
             {
               title: "Data Analysis for Government Agencies",
               points: [
-                "Promotes transparency through public scrutiny.",
-                "Aids in informed decision-making and service enhancement.",
-                "Optimizes resource allocation for improvement."
+                "Our team promotes transparency through public scrutiny.",
+                "We aid in informed decision-making and service enhancement.",
+                "We optimize resource allocation for improvement."
               ]
             },
             {
               title: "Process Optimization for SMEs",
               points: [
-                "Identifies inefficiencies and implements tech solutions.",
-                "Encourages a culture of continuous improvement.",
-                "Boosts productivity and drives innovation."
+                "We identify inefficiencies and implement tech solutions.",
+                "We encourage a culture of continuous improvement.",
+                "We boost productivity and drive innovation."
               ]
             },
             {
               title: "Academic Support for Research Candidates",
               points: [
-                "Workshops offer training in data analysis and writing.",
-                "Provides access to resources and funding opportunities.",
-                "Mentorship helps refine research focus."
+                "We offer training in data analysis and writing.",
+                "Our team provides access to resources and funding opportunities.",
+                "We provide mentorship and also help refine research focus."
               ]
             },
             {
               title: "Consultation Services",
               points: [
-                "Offers tailored expert advice.",
-                "Develops strategies to address challenges.",
-                "Enhances efficiency and achieves better results."
+                
+                "We offer tailored expert advice.",
+                "Our team develops strategies to address challenges.",
+                "We enhance efficiency and achieve better results."
+
               ]
             },
           ].map((service, index) => (
-            <div key={index} className="bg-white text-black p-6 rounded-[10px] shadow-lg shadow-[#93e9be] hover:shadow-xl transition-shadow duration-300">
+            <div key={index} className="bg-white text-black p-6 rounded-[10px] shadow-lg shadow-[#FFFFFF] hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-xl font-bold mb-4">{service.title}</h3>
               {service.points.map((point, idx) => (
-                <p key={idx} className="font-bold font-l mb-2">{point}</p>
+                <p key={idx} className="font-semibold font-l mb-2">{point}</p>
               ))}
             </div>
           ))}

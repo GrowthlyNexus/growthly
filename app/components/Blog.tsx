@@ -97,7 +97,7 @@ const Blog = () => {
                   href={post.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-[#005a5a] font-semibold px-6 py-2 rounded-md hover:bg-gray-300 transition-colors duration-200 w-full text-center" // Use full width and adjust padding
+                  className="inline-block bg-white text-[#005a5a] font-bold px-6 py-2 rounded-md hover:bg-gray-300 transition-colors duration-200 w-full text-center" // Use full width and adjust padding
                 >
                   Read More
                 </a>

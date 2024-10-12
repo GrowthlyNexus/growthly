@@ -28,9 +28,9 @@ const About = () => {
   return (
     <section id="about" className="relative bg-gray-100 py-12 px-6 sm:px-12 md:px-24 lg:px-48 min-h-screen">
       <div className="relative z-20 text-center mb-10">
-        <h2 className={`text-3xl md:text-4xl text-green font-bold mb-4 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>About Growthly</h2>
+        <h2 className={`text-3xl md:text-4xl text-green font-bold mb-4 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>About Us</h2>
         <p className={`text-lg md:text-xl text-gray-800 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>
-          Growthly is committed to helping businesses, researchers, and government agencies leverage data to optimize processes and achieve significant growth.
+          We are committed to help businesses, researchers, and government agencies leverage data to optimize processes and achieve significant growth.
         </p>
       </div>
 
@@ -52,7 +52,7 @@ const About = () => {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 p-4">
               <h3 className="text-3xl md:text-4xl font-bold mb-2 text-center">Our Vision</h3>
               <p className="text-gray-200 text-center font-l font-bold">
-                Empower individuals, government agencies, private organizations, and researchers to make informed decisions and achieve growth through strategic data utilization and process optimization.
+               To Empower individuals, government agencies, private organizations, and researchers to make informed decisions and achieve growth through strategic data utilization and process optimization.
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ const About = () => {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 p-4">
               <h3 className="text-3xl md:text-4xl font-bold mb-2 text-center">Our Mission</h3>
               <p className="text-gray-200 font-l text-center font-bold">
-                Accelerate clients' progress by harnessing the power of modern technologies, including Artificial Intelligence/Business Intelligence and advanced data analytics.
+               To Accelerate clients' progress by harnessing the power of modern technologies, including Artificial Intelligence/Business Intelligence and advanced data analytics.
               </p>
             </div>
           </div>

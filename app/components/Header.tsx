@@ -37,7 +37,7 @@ const Header = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-2 sm:mt-4 text-sm sm:text-lg md:text-xl font-bold text-center text-white"
         >
-          Empowering businesses through strategic data utilization and process optimization.
+          Hack Your Growth.
         </motion.p>
       </div>
 

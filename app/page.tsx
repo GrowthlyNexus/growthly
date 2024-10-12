@@ -5,13 +5,15 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Blog from './components/Blog';
+
 
 // Define metadata for the page
 export const metadata = {
-  title: 'Growthly',
-  description: 'Your description here.', // Optional: Add a description if needed
+  title: 'GrowthlyNexus',
+  description: 'Helping businesses grow through strategic data utilization and process optimization.', // Updated description
   icons: {
-    icon: '/favicon.ico', // Link to the favicon
+    icon: '/favicon.ico', // Ensure this path is correct
   },
 };
 
@@ -22,8 +24,10 @@ export default function Home() {
       <Header />
       <About />
       <Services />
+      <Blog />
       <Contact />
       <Footer />
     </>
   );
 }
+

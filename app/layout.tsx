@@ -19,6 +19,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Growthly - Empowering Business Growth',
   description: 'Helping businesses grow through strategic data utilization and process optimization.',
+  icons: {
+    icon: '/favicon.ico', // Link to the favicon
+  },
 };
 
 export default function RootLayout({
@@ -28,9 +31,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        {/* Optional: If you have a PNG favicon, uncomment this */}
+        {/* <link rel="icon" href="/favicon.png" type="image/png" /> */}
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
   );
 }
+
+

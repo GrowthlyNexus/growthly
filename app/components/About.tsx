@@ -26,10 +26,10 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="relative bg-gray-100 py-12 px-6 sm:px-12 md:px-24 lg:px-48 min-h-screen">
+    <section id="about" className="relative bg-gray-500 py-12 px-6 sm:px-12 md:px-24 lg:px-48 min-h-screen">
       <div className="relative z-20 text-center mb-10">
         <h2 className={`text-3xl md:text-4xl text-green font-bold mb-4 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>About Us</h2>
-        <p className={`text-lg md:text-xl text-gray-800 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>
+        <p className={`text-lg font-bold md:text-xl text-gray-800 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>
           We are committed to help businesses, researchers, and government agencies leverage data to optimize processes and achieve significant growth.
         </p>
       </div>

@@ -21,13 +21,14 @@ const Header = () => {
 
       {/* Text content on top of the background image with border styling */}
       <div className="relative z-20 text-white p-4 sm:p-6 md:p-8 rounded-xl bg-white/10 backdrop-blur-md max-w-xs sm:max-w-md md:max-w-3xl mx-4 md:mx-0 border-t-0 border-r-0 border-2 border-green-400"
-           style={{ borderLeftColor: 'white', borderBottomColor: 'white',  }}
+           style={{ borderLeftColor: 'white', borderBottomColor: 'white' }}
       >
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-green-400"
+          className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-green-400"
+          style={{ whiteSpace: 'nowrap' }}
         >
           Welcome to Growthly
         </motion.h1>
@@ -70,6 +71,7 @@ const Header = () => {
 };
 
 export default Header;
+
 
 
 
